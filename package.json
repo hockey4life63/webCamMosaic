@@ -4,12 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "browserify": "^16.1.0",
-    "browserify-shim": "^3.8.14",
     "gpu.js": "^1.0.0",
-    "rollupify": "^0.4.0",
-    "webcamjs": "^1.0.24",
-
   },
   "devDependencies": {},
   "scripts": {

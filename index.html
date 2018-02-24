@@ -4,11 +4,14 @@
     <title>Webcam Mosiac</title>
 </head>
 <body>
-    <div id="my_camera"></div>
-    <div id="my_result"></div>
-    <canvas height="480" width="640" id="mainCanvas">
+    <video id="cameraFeed"></video>
+    <canvas height="480" width="640" id="targetCanvas">
         
     </canvas>
+    <canvas height="1080" width="1920" id="mainCanvas">
+        
+    </canvas>
+    <script type="text/javascript" src='./webcam.js'></script>
     <script type="text/javascript" src='./node_modules/gpu.js/bin/gpu.js'></script>
     <script type="text/javascript" src='./mainGpuBuild.js'></script>
 </body>

@@ -1,0 +1,55 @@
+:root {
+    --sonic-grey: #655a4c;
+    --sonic-grey-light: #887866;
+    --midnight-blue: #00093D;
+    --pumpkin: #FF4B07;
+    --cream: #F2EDD5;
+
+
+    --bg: var(--sonic-grey);
+    --btn: var(--sonic-grey-light);
+    --txt: var(--midnight-blue);
+    --hover: var(--pumpkin);
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg);
+    color: var(--txt);
+    font-size: 20px;
+}
+
+.btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5vh;
+    width: 80vh;
+}
+
+.btn-styling {
+    border: 1px solid var(--btn);
+    background-color: var(--btn);
+    text-transform: uppercase;
+    padding: 1vh;
+    border-radius: 25px;
+}
+
+.btn-styling:hover {
+    border: 1px solid var(--hover);
+    background-color: var(--hover);
+}
+
+.input-styling {
+    border: 1px solid var(--btn);
+    width: 8vh;
+    padding: 1vh;
+    border-radius: 20px;
+    background-color: var(--btn);
+    color: var(--txt);
+    font-size: 15px;
+}

@@ -24,11 +24,13 @@ body {
 }
 
 .btn-group {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2vh;
+    grid-row-gap: 2vh;
     align-items: center;
-    justify-content: space-between;
     margin-top: 5vh;
-    width: 80vh;
 }
 
 .btn-styling {
@@ -44,6 +46,27 @@ body {
     background-color: var(--hover);
 }
 
+.picture-btn {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.start-btn {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.run-length {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.second-input {
+    grid-row: 2;
+    grid-column: 2;
+    justify-self: center;
+}
+
 .input-styling {
     border: 1px solid var(--btn);
     width: 8vh;
@@ -52,4 +75,8 @@ body {
     background-color: var(--btn);
     color: var(--txt);
     font-size: 15px;
+}
+
+.input-styling: hover {
+    border: 1px solid var(--hover);
 }

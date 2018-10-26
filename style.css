@@ -36,7 +36,7 @@ body {
     border: 1px solid var(--btn);
     background-color: var(--btn);
     text-transform: uppercase;
-    padding: 1vh;
+    padding: 2vh;
     border-radius: 25px;
 }
 
@@ -64,15 +64,15 @@ body {
 }
 
 .input-styling {
-    border: 1px solid var(--btn);
-    width: 8vh;
+    border: 2px solid var(--txt);
+    width: 15vh;
     padding: 1vh;
     border-radius: 20px;
     background-color: var(--btn);
     color: var(--txt);
-    font-size: 15px;
+    font-size: 40px;
 }
 
-.input-styling: hover {
-    border: 1px solid var(--hover);
+.input-styling:hover {
+    border: 2px solid var(--hover);
 }
